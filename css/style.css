@@ -84,15 +84,15 @@ h1 {
 }
 .positioning-1st-div {
   position: relative;
-  left: 1.25rem;
+  left: 2.25rem;
 }
 .positioning-2nd-div {
   position: relative;
-  left: 4.3125rem;
+  left: 5rem;
 }
 .positioning-3rd-div {
   position: relative;
-  left: 7rem;
+  left: 7.5rem;
 }
 
 .row-2 {
@@ -220,7 +220,6 @@ h1 {
   .row-2 {
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
   }
   h4 {
     margin-top: 0;
