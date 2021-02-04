@@ -29,8 +29,8 @@ h1 {
 
 .main-container {
   position: absolute;
-  top: 10px;
-  left: 140px;
+  top: 0.625rem;
+  left: 8.75rem;
   width: 80%;
 }
 .flex-container {
@@ -42,14 +42,14 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .col-1 p {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.8;
-  margin-top: 6px;
+  margin-top: 0.375rem;
   color: hsl(300, 43%, 22%);
 }
 
@@ -66,33 +66,33 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-items: right;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .starIcon-paragraph-handler {
   display: flex;
-  margin-bottom: 15px;
-  padding: 15px 25px;
+  margin-bottom: 0.9375rem;
+  padding: 0.9375rem 1.5625rem;
   background-color: hsl(300, 24%, 96%);
-  border-radius: 8px;
-  width: 370px;
+  border-radius: 0.5rem;
+  width: 23.125rem;
 }
 .margin-crop {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .positioning-1st-div {
   position: relative;
-  left: 20px;
+  left: 1.25rem;
 }
 .positioning-2nd-div {
   position: relative;
-  left: 69px;
+  left: 4.3125rem;
 }
 .positioning-3rd-div {
   position: relative;
-  left: 119px;
+  left: 7rem;
 }
 
 .row-2 {
@@ -100,53 +100,53 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 .row-2 .col {
   width: 31.5%;
   height: 13rem;
   background-color: hsl(300, 43%, 22%);
-  border-radius: 8px;
+  border-radius: 0.5rem;
   box-sizing: border-box;
-  padding: 0px 20px;
+  padding: 0 1.25rem;
 }
 .img-name-holder img {
   float: left;
-  width: 50px;
-  border-radius: 40px;
-  margin-right: 20px;
-  margin-bottom: 10px;
+  width: 3.125rem;
+  border-radius: 2.5rem;
+  margin-right: 1.25rem;
+  margin-bottom: 0.625rem;
 }
 .img-name-holder h4 {
   margin-bottom: 0;
-  padding: 10px;
+  padding: 0.625rem;
   color: hsl(0, 0%, 100%);
   font-weight: 500;
 }
 .img-name-holder p {
   font-size: 0.9275rem;
-  margin-top: -4px;
+  margin-top: -0.25rem;
   color: hsl(333, 80%, 67%);
 }
 
 .client-comment {
   clear: left;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   line-height: 1.5;
   color: hsl(0, 0%, 100%);
   font-size: 0.8125rem;
 }
 .col2 {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 .col3 {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .bg-bottom-desktop {
   position: absolute;
   bottom: 0;
-  top: 65px;
+  top: 4.0625rem;
   right: 0;
   z-index: -999;
   position: fixed;
@@ -170,8 +170,8 @@ h1 {
   .main-container {
     width: 90%;
     margin: 0 auto;
-    left: 20px;
-    margin-bottom: 30px;
+    left: 1.25rem;
+    margin-bottom: 1.875rem;
   }
   h1 {
     font-size: 2rem;
@@ -190,7 +190,7 @@ h1 {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 68px;
+    margin-top: 4.25rem;
   }
   .col-1,
   .col-2 {
@@ -198,10 +198,10 @@ h1 {
     text-align: center;
   }
   .col-1 p {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     text-align: center;
     width: 95%;
-    margin-left: 5px;
+    margin-left: 0.3125rem;
   }
 
   .starIcon-paragraph-handler {
@@ -211,10 +211,10 @@ h1 {
   .positioning-1st-div,
   .positioning-2nd-div,
   .positioning-3rd-div {
-    left: 0px;
+    left: 0;
   }
   .margin-crop {
-    margin-top: 5px;
+    margin-top: 0.3125rem;
   }
 
   .row-2 {
@@ -228,20 +228,20 @@ h1 {
   .row-2 .col {
     width: 100%;
     height: 14rem;
-    padding: 20px 25px;
+    padding: 1.25rem 1.5625rem;
   }
   .col3 {
-    margin-top: 20px;
-    margin-bottom: 68px;
+    margin-top: 1.25rem;
+    margin-bottom: 4.25rem;
   }
   .client-comment {
-    width: 266px;
+    width: 16.625rem;
   }
 
   .bg-bottom-mobile {
     display: block;
     position: absolute;
     z-index: -999;
-    top: 960px;
+    top: 60rem;
   }
 }
